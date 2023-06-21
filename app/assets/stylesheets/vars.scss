@@ -1,0 +1,50 @@
+:root {
+  --white: #ffffff;
+  --white-t1: rgba(255, 255, 255, 0.01);
+  --white-t2: rgba(255, 255, 255, 0.2);
+  --white-t3: rgba(255, 255, 255, 0.7);
+
+  --black-t1: rgba(0, 0, 0, 0.1);
+  --black-t2: rgba(0, 0, 0, 0.6);
+  --soft-black: rgba(28, 28, 28);
+  --vsoft-black: rgba(11, 11, 11);
+  --almost-black: rgba(10, 10, 10);
+  --black: #000000;
+
+  --dark-grey: #262626;
+  --softdark-grey: #333333;
+  --medium-grey: #8d8d8d;
+  --grey: #c5c5c5;
+  --light-grey: #cfcfcf;
+
+  --dark-green: #00ff29;
+  --acid-green: #79ff39;
+  --acid-turquoise: #00ff47;
+  --soft-green: rgba(95, 201, 164);
+
+  --soft-blue: #8ba1a1;
+  --dark-blue: #35464e;
+  --blue: rgba(19, 84, 235);
+  --myblue: #0057ff;
+
+  --dark-red: #9b2b1d;
+  --rose-red: rgba(255, 66, 117);
+
+  --fushia: #bd00ff;
+
+  --brown: #705e4a;
+  --grey-brown: #a6a39f;
+
+  --flashy-orange: #d83e26;
+
+  --beige: #c4a77b;
+  --yellow: rgba(255, 217, 66);
+
+  --surfaceGradient: linear-gradient(
+    90deg,
+    rgba(0, 87, 255, 1) 0%,
+    rgba(189, 0, 255, 1) 33%,
+    rgba(255, 0, 0, 1) 66%,
+    rgba(36, 255, 0, 1) 100%
+  );
+}

@@ -1,0 +1,14 @@
+#prototype_28 {
+  position: relative;
+  width: 1080px;
+  max-width: 1080px;
+  min-width: 1080px;
+  height: 1920px;
+  margin: auto;
+  background: black;
+  overflow: hidden;
+
+  .svgElem {
+    position: absolute;
+  }
+}

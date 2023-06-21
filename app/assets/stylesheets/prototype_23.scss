@@ -1,0 +1,42 @@
+body.prototype_body_23 {
+  .wrapper {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .toggleSwitch {
+    margin-right: 20px;
+    
+    &.active {
+      background-color: green;
+    }
+  }
+  
+  .resetButton, .toggleSwitch, .saveButton {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .saveButton {
+    margin-left: 20px;
+  }
+
+}
+
+#prototype_23 {
+  display: flex;
+  width: 100%;
+
+  canvas {
+    margin: auto;
+  }
+}

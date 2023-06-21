@@ -1,0 +1,25 @@
+#prototype_31 {
+  display: flex;
+  width: 100%;
+
+  canvas {
+    margin: auto;
+  }
+
+  .hue1 {
+    filter: hue-rotate(3.142rad);
+  }
+  .hue2 {
+    filter: hue-rotate(4.142rad);
+  }
+  .hue3 {
+    filter: hue-rotate(5.142rad);
+  }
+  .hue4 {
+    filter: hue-rotate(6.142rad);
+  }
+  .hue5 {
+    filter: hue-rotate(7.142rad);
+  }
+
+}

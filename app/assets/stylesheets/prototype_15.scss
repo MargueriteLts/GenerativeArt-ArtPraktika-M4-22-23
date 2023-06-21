@@ -1,0 +1,41 @@
+body.prototype_body_15 {
+  .wrapper {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .toggleSwitch {
+    margin-right: 20px;
+    
+    &.active {
+      background-color: green;
+    }
+  }
+  
+  .resetButton, .toggleSwitch {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+}
+
+#prototype_15 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+  div {
+    position: absolute;
+    border: 1px solid black;
+  }
+}

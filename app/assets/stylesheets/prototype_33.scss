@@ -1,0 +1,66 @@
+#prototype_33 {
+  display: flex;
+  width: 100%;
+
+  .menu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+
+    .button-right {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.8);
+      // height: 55px;
+      // width: 100%;
+      padding: 25px 80px 30px 80px;
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      border-radius: 100px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-family: NHU;
+      font-size: 50px;
+    }
+  
+    .button-left {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.8);
+      // height: 55px;
+      // width: 100%;
+      padding: 25px 80px 30px 80px;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      border-radius: 100px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-family: NHU;
+      font-size: 50px;
+    }
+  }
+
+
+  canvas {
+    margin: auto;
+  }
+
+  .hue1 {
+    filter: hue-rotate(3.142rad);
+  }
+  .hue2 {
+    filter: hue-rotate(90deg);
+  }
+  .hue3 {
+    filter: hue-rotate(-0.25turn);
+  }
+  .hue4 {
+    filter: hue-rotate(6.142rad);
+  }
+  .hue5 {
+    filter: hue-rotate(7.142rad);
+  }
+
+}
