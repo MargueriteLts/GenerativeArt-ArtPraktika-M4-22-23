@@ -1,7 +1,7 @@
 import p5 from 'p5'
-import { sample, getRandomArbitrary } from '../utilities'
 import map from '../../../assets/images/map.jpg'
 import txt from '../../../assets/images/txt.png'
+import { getRandomArbitrary } from '../utilities'
 
 // let canvasContainerId = ''
 
@@ -87,12 +87,15 @@ function sketch(p) {
   }
 }
 
-function initSketch() {
-  canvasSize.height = window.innerHeight
-  canvasSize.width = window.innerWidth
-  new p5(sketch)
+function initSketch(callback) {
+  canvasSize.height = window.innerHeight;
+  canvasSize.width = window.innerWidth;
+  new p5(p => {
+    p.setup = function () {
+      p.createCanvas(canvasSize.width, canvasSize.height);
+      callback();
+    }
+  })
 }
-
-
 
 export { initSketch }

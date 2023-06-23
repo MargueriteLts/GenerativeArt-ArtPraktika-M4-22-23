@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
-import Button from './Button'
+import React, { Component } from 'react';
+import Button from './Button';
 // import html2canvas from "html2canvas";
-import { sample } from '../utilities.js'
 
 export default class Container extends Component {
   constructor(props) {
@@ -9,8 +8,9 @@ export default class Container extends Component {
   }
 
   componentDidMount() {
-    this.props.initSketch('sketch')
-    this.props.hueChange('sketch')
+    this.props.initSketch(() => {
+      this.props.hueChange('sketch');
+    });
   }
 
 
